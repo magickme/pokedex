@@ -1,7 +1,7 @@
 <script context="module">
     export async function load({params}) {
         const id = params.id;
-        const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+        const url = `https://www.reddit.com/r/sveltejs/hot.json`;
         const res = await fetch(url);
         const pokeman = await res.json();
         return {
